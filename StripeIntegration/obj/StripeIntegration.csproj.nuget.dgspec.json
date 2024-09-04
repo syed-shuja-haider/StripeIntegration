@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Shuja Learning\\1 September 2024\\Stripe Integration\\StripeIntegration\\StripeIntegration\\StripeIntegration.csproj": {}
+    "D:\\Temporary Repos\\StripeIntegration\\StripeIntegration\\StripeIntegration\\StripeIntegration.csproj": {}
   },
   "projects": {
-    "D:\\Shuja Learning\\1 September 2024\\Stripe Integration\\StripeIntegration\\StripeIntegration\\StripeIntegration.csproj": {
+    "D:\\Temporary Repos\\StripeIntegration\\StripeIntegration\\StripeIntegration\\StripeIntegration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Shuja Learning\\1 September 2024\\Stripe Integration\\StripeIntegration\\StripeIntegration\\StripeIntegration.csproj",
+        "projectUniqueName": "D:\\Temporary Repos\\StripeIntegration\\StripeIntegration\\StripeIntegration\\StripeIntegration.csproj",
         "projectName": "StripeIntegration",
-        "projectPath": "D:\\Shuja Learning\\1 September 2024\\Stripe Integration\\StripeIntegration\\StripeIntegration\\StripeIntegration.csproj",
+        "projectPath": "D:\\Temporary Repos\\StripeIntegration\\StripeIntegration\\StripeIntegration\\StripeIntegration.csproj",
         "packagesPath": "C:\\Users\\Syed Shuja Haider\\.nuget\\packages\\",
-        "outputPath": "D:\\Shuja Learning\\1 September 2024\\Stripe Integration\\StripeIntegration\\StripeIntegration\\obj\\",
+        "outputPath": "D:\\Temporary Repos\\StripeIntegration\\StripeIntegration\\StripeIntegration\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Syed Shuja Haider\\AppData\\Roaming\\NuGet\\NuGet.Config",

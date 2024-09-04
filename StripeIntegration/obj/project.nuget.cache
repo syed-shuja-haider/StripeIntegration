@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tDJ5QRhSvWSH3BytRDW2FLFmxW2MYaX50Xv6fgQoopoSFqAJJfDC/3R/ZCns0H0QR5aShobfLcT6T34LvQ6+1w==",
+  "dgSpecHash": "NtGUJgB2gwbRRtXeAxAdPeT4tmVMLja5ZtymBvTnrSPm5EKTKg9a/R9Beyks1i9GR/cXb0j3Ss8SN+QsoBwXOQ==",
   "success": true,
-  "projectFilePath": "D:\\Shuja Learning\\1 September 2024\\Stripe Integration\\StripeIntegration\\StripeIntegration\\StripeIntegration.csproj",
+  "projectFilePath": "D:\\Temporary Repos\\StripeIntegration\\StripeIntegration\\StripeIntegration\\StripeIntegration.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Syed Shuja Haider\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.14\\microsoft.aspnetcore.openapi.7.0.14.nupkg.sha512",
     "C:\\Users\\Syed Shuja Haider\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
