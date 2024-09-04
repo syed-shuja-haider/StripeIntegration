@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "VT8hdGlEJMahg1CMFQcBk9EpSIBgc+p8rTEnwc8DFZQ=",
+  "Source": "StripeIntegration",
+  "BasePath": "_content/StripeIntegration",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stripe Payment</title>
+    <script src="https://js.stripe.com/v3/"></script>
+</head>
+<body>
+    <form id="payment-form">
+        <div id="card-element"></div>
+        <button type="submit">Pay</button>
+    </form>
+
+    <script>
+        const stripe = Stripe('pk_test_51Pu7lmD7BVJ5KVkbwBYEJZwcITfIl1U9L14qZBc0JhRf3Trlajzsjqb7IZjkpB69urWg6bxANzdQGBBbPRZKhdTs00cAuSH6JI');
+        const elements = stripe.elements();
+        
+        // Create a single instance of the card element
+        const cardElement = elements.create('card');
+        cardElement.mount('#card-element');
+
+        document.querySelector('#payment-form').addEventListener('submit', async (event) => {
+            event.preventDefault();
+
+            try {
+                // Create PaymentIntent
+                const response = await fetch('https://localhost:7228/api/payments/create-payment-intent', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ amount: 1000, currency: 'usd', orderId: '3fa85f64-5717-4562-b3fc-2c963f66afa6', customerName: 'John Doe' })
+                });
+
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+
+                const { clientSecret } = await response.json();
+
+                // Confirm PaymentIntent on the client-side
+                const { error } = await stripe.confirmCardPayment(clientSecret, {
+                    payment_method: {
+                        card: cardElement,
+                        billing_details: {
+                            name: 'John Doe',
+                        },
+                    }
+                });
+
+                if (error) {
+                    // Display error.message in your UI
+                    console.error('Payment error:', error.message);
+                } else {
+                    // The payment is complete
+                    console.log('Payment successful!');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        });
+    </script>
+</body>
+</html>

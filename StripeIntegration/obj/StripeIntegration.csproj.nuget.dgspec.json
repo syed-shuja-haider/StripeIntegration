@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Shuja Learning\\1 September 2024\\Stripe Integration\\StripeIntegration\\StripeIntegration\\StripeIntegration.csproj": {}
+  },
+  "projects": {
+    "D:\\Shuja Learning\\1 September 2024\\Stripe Integration\\StripeIntegration\\StripeIntegration\\StripeIntegration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Shuja Learning\\1 September 2024\\Stripe Integration\\StripeIntegration\\StripeIntegration\\StripeIntegration.csproj",
+        "projectName": "StripeIntegration",
+        "projectPath": "D:\\Shuja Learning\\1 September 2024\\Stripe Integration\\StripeIntegration\\StripeIntegration\\StripeIntegration.csproj",
+        "packagesPath": "C:\\Users\\Syed Shuja Haider\\.nuget\\packages\\",
+        "outputPath": "D:\\Shuja Learning\\1 September 2024\\Stripe Integration\\StripeIntegration\\StripeIntegration\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Syed Shuja Haider\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Projects\\local-nugets": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[45.10.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
